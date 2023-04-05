@@ -1,0 +1,2 @@
+
+javascript:(()=>{let result=prompt("Enter an expression to calculate:");result!==null&&(result=eval(result),alert("Result: "+result))})()
