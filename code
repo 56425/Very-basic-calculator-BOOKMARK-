@@ -1,0 +1,11 @@
+javascript:(function() {
+  var result = prompt("Enter an expression to calculate:");
+  if (result !== null) {
+    try {
+      result = eval(result);
+      alert("Result: " + result);
+    } catch (e) {
+      alert("Invalid expression");
+    }
+  }
+})();
